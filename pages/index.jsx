@@ -1,5 +1,6 @@
 
 import Head from 'next/head'
+import Header from '../components/header'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <h1>Let's build Hulu 2.0</h1>
 
       { /** header */ }
+      <Header />
       
       { /** navbar */ }
 
